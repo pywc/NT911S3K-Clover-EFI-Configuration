@@ -1,0 +1,94 @@
+11:706  1:052  Found BIOS RSDP at F05B0
+11:707  0:001  Saving ACPI tables from RSDP F05B0 to EFI\CLOVER\ACPI\origin ...
+11:709  0:001   F05B0: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+11:713  0:004    (Xsdt: DB335090, Rsdt: DB335028)
+11:715  0:001    DB335090: 'XSDT', 'LH43STAR', Rev: 1, Len: 172
+11:718  0:003    DB335028: 'RSDT', 'LH43STAR', Rev: 1, Len: 100
+11:722  0:003    Tables in Xsdt: 17
+11:723  0:001    0. DB342BD0: 'FACP', 'LH43STAR', Rev: 5, Len: 268
+11:727  0:004        (Dsdt: DB3351D0, Facs: DBCDCF80, XDsdt: DB3351D0, XFacs: 0)
+11:731  0:003        DB3351D0: 'DSDT', 'LH43STAR', Rev: 2, Len: 55801
+11:736  0:004        DBCDCF80: 'FACS', Ver: 2, Len: 64
+11:738  0:002    1. DB342CE0: 'APIC', 'LH43STAR', Rev: 3, Len: 132
+11:742  0:003    2. DB342D68: 'FPDT', 'LH43STAR', Rev: 1, Len: 68
+11:745  0:003    3. DB342DB0: 'FIDT', 'LH43STAR', Rev: 1, Len: 176
+11:749  0:003    4. DB342E60: 'MCFG', 'LH43STAR', Rev: 1, Len: 60
+11:753  0:004    5. DB342EA0: 'HPET', 'LH43STAR', Rev: 1, Len: 56
+11:757  0:003    6. DB342ED8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+11:760  0:003    7. DB3431F0: 'UEFI', '', Rev: 1, Len: 66
+11:764  0:003    8. DB343238: 'LPIT', '', Rev: 1, Len: 148
+11:768  0:003    9. DB3432D0: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+11:771  0:003    10. DB343810: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+11:775  0:003    11. DB344388: 'SSDT', 'CtdpB', Rev: 2, Len: 1086
+11:778  0:003    12. DB3447C8: 'SSDT', 'DptfTabl', Rev: 2, Len: 23164
+11:783  0:004    13. DB34A248: 'SSDT', 'SaSsdt', Rev: 2, Len: 23575
+11:786  0:003    14. DB34FE60: 'SLIC', 'LH43STAR', Rev: 1, Len: 374
+11:790  0:003    15. DB34FFD8: 'DMAR', 'BDW', Rev: 1, Len: 176
+11:793  0:003    16. DBCDDD18: 'UEFI', 'LH43STAR', Rev: 3, Len: 85
+11:797  0:003    Tables in Rsdt: 16
+11:798  0:001    0. DB335148: 'FACP', 'LH43STAR', Rev: 2, Len: 132
+11:802  0:003        (Dsdt: DB3351D0, Facs: DBCDCF40)
+11:804  0:002        DB3351D0: 'DSDT', 'LH43STAR', Rev: 2, Len: 55801
+11:810  0:005        DBCDCF40: 'FACS', Ver: 0, Len: 64
+11:812  0:002    1. DB342CE0: 'APIC', 'LH43STAR', Rev: 3, Len: 132
+11:816  0:003    2. DB342D68: 'FPDT', 'LH43STAR', Rev: 1, Len: 68
+11:819  0:003    3. DB342DB0: 'FIDT', 'LH43STAR', Rev: 1, Len: 176
+11:823  0:003    4. DB342E60: 'MCFG', 'LH43STAR', Rev: 1, Len: 60
+11:826  0:003    5. DB342EA0: 'HPET', 'LH43STAR', Rev: 1, Len: 56
+11:830  0:003    6. DB342ED8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+11:834  0:003    7. DB3431F0: 'UEFI', '', Rev: 1, Len: 66
+11:838  0:004    8. DB343238: 'LPIT', '', Rev: 1, Len: 148
+11:841  0:003    9. DB3432D0: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+11:845  0:003    10. DB343810: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+11:849  0:003    11. DB344388: 'SSDT', 'CtdpB', Rev: 2, Len: 1086
+11:852  0:003    12. DB3447C8: 'SSDT', 'DptfTabl', Rev: 2, Len: 23164
+11:856  0:003    13. DB34A248: 'SSDT', 'SaSsdt', Rev: 2, Len: 23575
+11:859  0:003    14. DB34FE60: 'SLIC', 'LH43STAR', Rev: 1, Len: 374
+11:863  0:003    15. DB34FFD8: 'DMAR', 'BDW', Rev: 1, Len: 176
+11:867  0:004  Found UEFI Acpi 2.0 RSDP at D734A000
+11:868  0:001  Printing ACPI tables from RSDP D734A000 ...
+11:870  0:001   D734A000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+11:875  0:004    (Xsdt: DB335090, Rsdt: DB335028)
+11:876  0:001    DB335090: 'XSDT', 'LH43STAR', Rev: 1, Len: 172
+11:879  0:003    DB335028: 'RSDT', 'LH43STAR', Rev: 1, Len: 100
+11:883  0:003    Tables in Xsdt: 17
+11:884  0:001    0. DB342BD0: 'FACP', 'LH43STAR', Rev: 5, Len: 268
+11:888  0:004        (Dsdt: DB3351D0, Facs: DBCDCF80, XDsdt: DB3351D0, XFacs: 0)
+11:893  0:004        DB3351D0: 'DSDT', 'LH43STAR', Rev: 2, Len: 55801
+11:897  0:004        DBCDCF80: 'FACS', Ver: 2, Len: 64
+11:900  0:002    1. DB342CE0: 'APIC', 'LH43STAR', Rev: 3, Len: 132
+11:903  0:003    2. DB342D68: 'FPDT', 'LH43STAR', Rev: 1, Len: 68
+11:907  0:003    3. DB342DB0: 'FIDT', 'LH43STAR', Rev: 1, Len: 176
+11:911  0:003    4. DB342E60: 'MCFG', 'LH43STAR', Rev: 1, Len: 60
+11:914  0:003    5. DB342EA0: 'HPET', 'LH43STAR', Rev: 1, Len: 56
+11:918  0:004    6. DB342ED8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+11:922  0:003    7. DB3431F0: 'UEFI', '', Rev: 1, Len: 66
+11:926  0:003    8. DB343238: 'LPIT', '', Rev: 1, Len: 148
+11:929  0:003    9. DB3432D0: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+11:933  0:003    10. DB343810: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+11:936  0:003    11. DB344388: 'SSDT', 'CtdpB', Rev: 2, Len: 1086
+11:940  0:003    12. DB3447C8: 'SSDT', 'DptfTabl', Rev: 2, Len: 23164
+11:944  0:003    13. DB34A248: 'SSDT', 'SaSsdt', Rev: 2, Len: 23575
+11:948  0:004    14. DB34FE60: 'SLIC', 'LH43STAR', Rev: 1, Len: 374
+11:951  0:003    15. DB34FFD8: 'DMAR', 'BDW', Rev: 1, Len: 176
+11:955  0:003    16. DBCDDD18: 'UEFI', 'LH43STAR', Rev: 3, Len: 85
+11:959  0:003    Tables in Rsdt: 16
+11:960  0:001    0. DB335148: 'FACP', 'LH43STAR', Rev: 2, Len: 132
+11:963  0:003        (Dsdt: DB3351D0, Facs: DBCDCF40)
+11:966  0:002        DB3351D0: 'DSDT', 'LH43STAR', Rev: 2, Len: 55801
+11:971  0:004        DBCDCF40: 'FACS', Ver: 0, Len: 64
+11:974  0:003    1. DB342CE0: 'APIC', 'LH43STAR', Rev: 3, Len: 132
+11:977  0:003    2. DB342D68: 'FPDT', 'LH43STAR', Rev: 1, Len: 68
+11:983  0:005    3. DB342DB0: 'FIDT', 'LH43STAR', Rev: 1, Len: 176
+11:986  0:003    4. DB342E60: 'MCFG', 'LH43STAR', Rev: 1, Len: 60
+11:990  0:003    5. DB342EA0: 'HPET', 'LH43STAR', Rev: 1, Len: 56
+11:994  0:003    6. DB342ED8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+11:997  0:003    7. DB3431F0: 'UEFI', '', Rev: 1, Len: 66
+12:001  0:003    8. DB343238: 'LPIT', '', Rev: 1, Len: 148
+12:005  0:004    9. DB3432D0: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+12:009  0:003    10. DB343810: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+12:012  0:003    11. DB344388: 'SSDT', 'CtdpB', Rev: 2, Len: 1086
+12:016  0:003    12. DB3447C8: 'SSDT', 'DptfTabl', Rev: 2, Len: 23164
+12:019  0:003    13. DB34A248: 'SSDT', 'SaSsdt', Rev: 2, Len: 23575
+12:023  0:003    14. DB34FE60: 'SLIC', 'LH43STAR', Rev: 1, Len: 374
+12:027  0:003    15. DB34FFD8: 'DMAR', 'BDW', Rev: 1, Len: 176
